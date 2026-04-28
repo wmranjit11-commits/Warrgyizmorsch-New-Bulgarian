@@ -1,0 +1,42 @@
+export const cardData4 = [
+  {
+    reviewStars: 5,
+    text: "Бях напълно удовлетворен от помощта, която получих от Assignment In Need. Те разбраха правилно моята тема и предадоха заданието навреме. Поддържащият персонал беше любезен и отговаряше бързо. Това направи завършването на моето задание много по-малко стресиращо. Със сигурност бих използвал услугите им отново.",
+    avatarSrc: "assets/img/testimonial/logo/assignmentinneed.avif",
+    name: "Assignment In Need",
+    designation: "",
+    quoteIconSrc: "assets/img/icon/quote_left.svg",
+  },
+  {
+    reviewStars: 5,
+    text: "Comfort Transfers направи пътуването ни лесно и удобно. Шофьорът пристигна навреме, беше любезен, а превозното средство беше изключително чисто. Беше чудесно да се насладим на толкова гладко посрещане на летището след дълъг полет. Ще ги използвам отново следващия път, когато пътувам.",
+    avatarSrc: "assets/img/testimonial/logo/comforttransfers.avif",
+    name: "Comfort Transfers",
+    designation: "",
+    quoteIconSrc: "assets/img/icon/quote_left.svg",
+  },
+  {
+    reviewStars: 5,
+    text: "Let's Learn Edu улесни обучението ми. Уроците бяха представени по логичен начин. Инструкторите бяха лесни за следване. Хареса ми, че можех да уча със собствено темпо. Това всъщност ме направи по-уверен, докато учех.",
+    avatarSrc: "assets/img/testimonial/logo/letslearn.avif",
+    name: "Let's Learn Edu",
+    designation: "",
+    quoteIconSrc: "assets/img/icon/quote_left.svg",
+  },
+  {
+    reviewStars: 5,
+    text: "Обожавам грижата за кожата от Aloe Naturals. Много е нежна към кожата ми и мирише свежо и естествено. Кожата ми никога не е изглеждала или се е чувствала по-добре, откакто я използвам, и се чувства мека през целия ден. Толкова съм щастлива, че открих нещо, което работи и съдържа естествени съставки.",
+    avatarSrc: "assets/img/testimonial/logo/aloe.avif",
+    name: "Aloe Naturals",
+    designation: "",
+    quoteIconSrc: "assets/img/icon/quote_left.svg",
+  },
+  {
+    reviewStars: 5,
+    text: "Global Assignment Support беше голяма помощ за моя проект. Текстът беше добър, добре проучен и завършен преди крайния срок. Беше удоволствие да се работи с тях и разбраха точно какво търся. Бих ги препоръчал на всеки студент, който има затруднения с курсовата си работа.",
+    avatarSrc: "assets/img/testimonial/logo/globalassignmentsupport.avif",
+    name: "Global Assignment Support",
+    designation: "",
+    quoteIconSrc: "assets/img/icon/quote_left.svg",
+  },
+];

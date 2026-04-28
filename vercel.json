@@ -1,0 +1,84 @@
+{
+  "redirects": [
+    {
+      "source": "/choose-the-right-technology-for-your-website",
+      "destination": "/blog/choose-the-right-technology-for-your-website",
+      "permanent": true
+    },
+    {
+      "source": "/custom-website-design-beats-using-a-generic-template",
+      "destination": "/blog/custom-website-design-beats-using-a-generic-template",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-start-an-online-store",
+      "destination": "/blog/how-to-start-an-online-store",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-tools-to-grow-your-business",
+      "destination": "/blog/digital-marketing-tools-to-grow-your-business",
+      "permanent": true
+    },
+    {
+      "source": "/do-you-put-together-a-digital-marketing-plan-for-your-business",
+      "destination": "/blog/do-you-put-together-a-digital-marketing-plan-for-your-business",
+      "permanent": true
+    },
+    {
+      "source": "/seo-or-google-ads-which-one-should-you-choose",
+      "destination": "/blog/seo-or-google-ads-which-one-should-you-choose",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-help-small-businesses",
+      "destination": "/blog/digital-marketing-help-small-businesses",
+      "permanent": true
+    },
+    {
+      "source": "/fastest-woocommerce-themes",
+      "destination": "/blog/fastest-woocommerce-themes",
+      "permanent": true
+    },
+    {
+      "source": "/top-digital-marketing-strategies",
+      "destination": "/blog/top-digital-marketing-strategies",
+      "permanent": true
+    },
+    {
+      "source": "/erp-software-for-logistics-company",
+      "destination": "/blog/erp-software-for-logistics-company",
+      "permanent": true
+    },
+    {
+      "source": "/saas-application-development-success-guide",
+      "destination": "/blog/saas-application-development-success-guide",
+      "permanent": true
+    },
+    {
+      "source": "/eco-friendly-websites-with-sustainable-web-design",
+      "destination": "/blog/eco-friendly-websites-with-sustainable-web-design",
+      "permanent": true
+    },
+    {
+      "source": "/bespoke-software-is-essential-for-modern-businesses",
+      "destination": "/blog/bespoke-software-is-essential-for-modern-businesses",
+      "permanent": true
+    },
+    {
+      "source": "/future-of-it-services-ai-powered-solutions",
+      "destination": "/blog/future-of-it-services-ai-powered-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/it-solutions-every-small-business",
+      "destination": "/blog/it-solutions-every-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/flutter-vs-react-native",
+      "destination": "/blog/flutter-vs-react-native",
+      "permanent": true
+    }
+  ]
+}

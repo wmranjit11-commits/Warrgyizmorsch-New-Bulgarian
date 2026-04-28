@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/ad-component/CaseStudyAd.jsx",
+    "components/ad-component/HappyCustomersSlider.jsx",
+    "components/ad-component/ContactUS.jsx",
+    "components/ad-component/ERPComparisonSection.jsx",
+    "components/ad-component/HeroSection.jsx",
+    "components/ad-component/ERPModules.jsx",
+    "components/ad-component/HighlightedAchievements.jsx",
+    "components/ad-component/Services.jsx",
+    "components/ad-component/ERPDevelopment.jsx",
+    "components/ad-component/Technologies.jsx",
+    "components/ad-component/ERPWorkflowCTA.jsx",
+    "components/ad-component/WhyStandsOut.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

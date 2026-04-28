@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* Floating WhatsApp Button */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  z-index: 9999;
+}
+
+.floating-whatsapp a {
+  width: 55px;
+  height: 55px;
+  background-color: #25d366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 35px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-whatsapp a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width:768px) {
+  .floating-whatsapp {
+    bottom: 18px;
+    left: 16px;
+  }
+}
+
+/* Language Dropdown  */
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+#goog-gt-tt,
+#goog-gt-vt {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  border-radius: 20px;
+  padding: 4px !important;
+  background: #fff;
+}
+
+.goog-te-gadget img {
+  display: none;
+}
+
+#google_translate_wrapper {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 9999;
+  background: #f2f2f2;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  font-family: sans-serif;
+  overflow: visible;
+}
+
+.translate-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#translate-inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+}
+
+#google_translate_element {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: 10000;
+}
+
+#translateIcon {
+  display: inline-block;
+}
+
+body {
+  top: 0 !important;
+}
+
+.faq-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.faq-collapse.open {
+  max-height: 500px;
+}
+
+.blog-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.blog-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.about-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap; /* mobile pe link niche aa jayega */
+  margin-bottom:10px;
+}
+
+.about-head h2{ margin:0; }
+
+.visit-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  font-weight:600;
+  padding:8px 12px;
+  border-radius:10px;
+  border:1px solid rgba(0,0,0,0.12);
+  transition:0.2s;
+  white-space:nowrap;
+}
+.visit-link:hover{ transform:translateY(-1px); }
+
+
+
