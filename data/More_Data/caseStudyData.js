@@ -1,17 +1,17 @@
 // import { url } from "node:inspector";
 
 export const CASE_STUDIES = [
-  {
-    title: "ITMSU",
-    desc: "Система за управление на трафика чрез IoT, използваща Raspberry Pi, камера Hailo, Python/Flask и машинно обучение",
-    work: "Laravel • Python • Flask • Cloudflare • JavaScript • CSS",
-    img: "/assets/new-img/itms.webp",
-    logo: "/assets/new-img/case_study_logos/itms-logo.webp",
-    slug: "itmsu",
-    meta_title: "ITMSU Казус | Warrgyiz Morsch",
-    meta_description:
-      "Вижте как Warrgyiz Morsch помогна на ITMSU да оптимизира градската мобилност с модерно IoT решение за управление на трафика.",
-    content: `
+    {
+        title: "ITMSU",
+        desc: "Система за управление на трафика чрез IoT, използваща Raspberry Pi, камера Hailo, Python/Flask и машинно обучение",
+        work: "Laravel • Python • Flask • Cloudflare • JavaScript • CSS",
+        img: "/assets/new-img/itms.webp",
+        logo: "/assets/new-img/case_study_logos/itms-logo.webp",
+        slug: "itmsu",
+        meta_title: "ITMSU Казус | Warrgyiz Morsch",
+        meta_description:
+            "Вижте как Warrgyiz Morsch помогна на ITMSU да оптимизира градската мобилност с модерно IoT решение за управление на трафика.",
+        content: `
         <h2>Относно клиента</h2>
         <p>ITMS (Интелигентна система за управление на трафика) е усъвършенствана базирана на IoT платформа, проектирана да модернизира мониторинга и управлението на трафика чрез данни в реално време. Системата използва технологии като Raspberry Pi, камери с изкуствен интелект (Hailo) и машинно обучение за анализ на задръстванията, откриване на типове превозни средства и ефективно управление на трафика. Проектът се фокусира върху подобряване на градската мобилност чрез намаляване на ръчната намеса и оптимизиране на ефективността на пътната мрежа.</p>
         
@@ -78,19 +78,19 @@ export const CASE_STUDIES = [
             <li>Създадохме стабилна основа за <strong>интеграция в смарт градове (smart-city)</strong>, в съответствие с бъдещи инициативи за мобилност, задвижвана от AI.</li>
         </ul>
     `,
-  },
+    },
 
-  {
-    slug: "aloe-naturals",
-    title: "Aloe Naturals",
-    desc: "Професионален уебсайт на WordPress, разработен с JavaScript и персонализиран CSS.",
-    work: "WordPress • JavaScript • CSS",
-    img: "/assets/new-img/aloe_card.webp",
-    logo: "/assets/new-img/case_study_logos/aloe-logo.webp",
-    meta_title: "Aloe Naturals Казус | Warrgyiz Morsch",
-    meta_description:
-      "Разберете как Warrgyiz Morsch помогна на Aloe Naturals да изгради силно дигитално присъствие и да подобри ангажираността на клиентите онлайн чрез премиум редизайн.",
-    content: `
+    {
+        slug: "aloe-naturals",
+        title: "Алое Натуралс",
+        desc: "Професионален уебсайт на WordPress, разработен с JavaScript и персонализиран CSS.",
+        work: "WordPress • JavaScript • CSS",
+        img: "/assets/new-img/aloe_card.webp",
+        logo: "/assets/new-img/case_study_logos/aloe-logo.webp",
+        meta_title: "Алое Натуралс Казус | Warrgyiz Morsch",
+        meta_description:
+            "Разберете как Warrgyiz Morsch помогна на Алое Натуралс да изгради силно дигитално присъствие и да подобри ангажираността на клиентите онлайн чрез премиум редизайн.",
+        content: `
      <div class="about-head">
           <h2>Относно клиента</h2>
           <a
@@ -102,7 +102,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Aloe Naturals е швейцарска луксозна марка за грижа за кожата, специализирана в козметични продукти и уелнес решения на основата на алое вера. Марката съчетава чисти естествени съставки с модерни научни иновации. Aloe Naturals си партнира с нас, за да трансформира своето дигитално присъствие чрез цялостен редизайн на уебсайта и прецизно насочени рекламни кампании.</p>
+                        <p>Алое Натуралс е швейцарска луксозна марка за грижа за кожата, специализирана в козметични продукти и уелнес решения на основата на алое вера. Марката съчетава чисти естествени съставки с модерни научни иновации. Aloe Naturals си партнира с нас, за да трансформира своето дигитално присъствие чрез цялостен редизайн на уебсайта и прецизно насочени рекламни кампании.</p>
 
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -163,21 +163,21 @@ export const CASE_STUDIES = [
                             <li>Разходите за привличане на нов клиент (CAC) спаднаха с <strong> 28% </strong>, подобрявайки общата рентабилност.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "WTS Visa",
-    desc: "Разработен мащабируем Laravel бекенд с Tailwind CSS и PHP.",
-    work: "Laravel • Tailwind CSS • PHP",
-    img: "/assets/new-img/case_wts.webp",
-    logo: "/assets/new-img/case_study_logos/wts-logo.webp",
-    slug: "wts-visa",
-    meta_title: "WTS Visa Казус | Warrgyiz Morsch",
-    meta_description:
-      "Разберете как Warrgyiz Morsch подкрепи WTS Visa с модерна уеб платформа и дигитална стратегия за повишаване качеството на потенциалните клиенти (leads).",
-    content: `
+    {
+        title: "WTS Виза",
+        desc: "Разработен мащабируем Laravel бекенд с Tailwind CSS и PHP.",
+        work: "Laravel • Tailwind CSS • PHP",
+        img: "/assets/new-img/case_wts.webp",
+        logo: "/assets/new-img/case_study_logos/wts-logo.webp",
+        slug: "wts-visa",
+        meta_title: "WTS Виза Казус | Warrgyiz Morsch",
+        meta_description:
+            "Разберете как Warrgyiz Morsch подкрепи WTS Виза с модерна уеб платформа и дигитална стратегия за повишаване качеството на потенциалните клиенти (leads).",
+        content: `
          <div class="about-head">
-          <h2>Относно WTS Visa</h2>
+          <h2>Относно WTS Виза</h2>
           <a
             href="https://wtsvisa.com"
             target="_blank"
@@ -188,7 +188,7 @@ export const CASE_STUDIES = [
           </a>
         </div>
 
-                        <p>WTS Visa е водеща консултантска компания в Индия, специализирана в услуги за студентски визи и имиграция. Марката предоставя цялостна подкрепа за амбициозни студенти, желаещи да учат в чужбина. С над 12 години опит в сектора, WTS Visa си партнира с нас, за да трансформира дигиталното си присъствие и да стартира прецизно насочени маркетингови кампании.</p>
+                        <p>WTS Виза е водеща консултантска компания в Индия, специализирана в услуги за студентски визи и имиграция. Марката предоставя цялостна подкрепа за амбициозни студенти, желаещи да учат в чужбина. С над 12 години опит в сектора, WTS Visa си партнира с нас, за да трансформира дигиталното си присъствие и да стартира прецизно насочени маркетингови кампании.</p>
 
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -249,26 +249,26 @@ export const CASE_STUDIES = [
                             <li>WTS Visa отбеляза <strong>30% ръст</strong> в успешните реализации и значително по-висок ROI благодарение на прецизното дигитално насочване.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Comfort Transfers",
-    desc: "Високопроизводителна Laravel платформа с оптимизирано SEO, Tailwind и Bootstrap.",
-    work: "Laravel • Tailwind • Bootstrap • SEO",
-    img: "/assets/new-img/work_ct.webp",
-    logo: "/assets/new-img/case_study_logos/comfort_transfer_logo.webp",
-    slug: "comfort-transfers",
-    meta_title: "Comfort Transfers Казус | Warrgyiz Morsch",
-    meta_description:
-      "Научете как Warrgyiz Morsch трансформира Comfort Transfers с персонализирана CRM система, SEO оптимизация и мащабируемо Laravel решение.",
-    keywords: [
-      "трансфери Швейцария",
-      "Laravel CRM разработка",
-      "SEO за транспортни услуги",
-      "луксозни трансфери уебсайт",
-      "автоматизация на резервации",
-    ],
-    content: `
+    {
+        title: "Комфорт Трансфърс",
+        desc: "Високопроизводителна Laravel платформа с оптимизирано SEO, Tailwind и Bootstrap.",
+        work: "Laravel • Tailwind • Bootstrap • SEO",
+        img: "/assets/new-img/work_ct.webp",
+        logo: "/assets/new-img/case_study_logos/comfort_transfer_logo.webp",
+        slug: "comfort-transfers",
+        meta_title: "Комфорт Трансфърс Казус | Warrgyiz Morsch",
+        meta_description:
+            "Научете как Warrgyiz Morsch трансформира Комфорт Трансфърс с персонализирана CRM система, SEO оптимизация и мащабируемо Laravel решение.",
+        keywords: [
+            "трансфери Швейцария",
+            "Laravel CRM разработка",
+            "SEO за транспортни услуги",
+            "луксозни трансфери уебсайт",
+            "автоматизация на резервации",
+        ],
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -280,7 +280,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Comfort Transfers е водеща компания за премиум шофьорски услуги и отдаване на автомобили под наем в Швейцария. Те предлагат висококласни летищни трансфери, индивидуално посрещане и междуградски пътувания в над 12 основни швейцарски дестинации. Известна със своя фокус върху комфорта и надеждността, марката се довери на нашия екип за цялостно подобряване на онлайн присъствието, автоматизация на резервациите и увеличаване на пазарния дял чрез стратегическо SEO.</p>
+                        <p>Комфорт Трансфърс е водеща компания за премиум шофьорски услуги и отдаване на автомобили под наем в Швейцария. Те предлагат висококласни летищни трансфери, индивидуално посрещане и междуградски пътувания в над 12 основни швейцарски дестинации. Известна със своя фокус върху комфорта и надеждността, марката се довери на нашия екип за цялостно подобряване на онлайн присъствието, автоматизация на резервациите и увеличаване на пазарния дял чрез стратегическо SEO.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -351,19 +351,19 @@ export const CASE_STUDIES = [
                             <li>Оптимизирахме разходите за реклама чрез по-прецизно проследяване на реализациите.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Voltvera",
-    desc: "Цялостен редизайн на UI/UX и разработка на WordPress платформа",
-    work: "WordPress • JavaScript • CSS",
-    img: "/assets/new-img/voltvera_case.webp",
-    logo: "/assets/new-img/case_study_logos/voltverashop.png",
-    slug: "voltvera",
-    meta_title: "Кейс стъди на Voltvera | Warrgyiz Morsch",
-    meta_description:
-      "Научете как Warrgyiz Morsch помогна на Voltvera да подобри дигиталната си видимост чрез модерен UI/UX редизайн и мащабируемо уеб решение.",
-    content: `
+    {
+        title: "Волтвера",
+        desc: "Цялостен редизайн на UI/UX и разработка на WordPress платформа",
+        work: "WordPress • JavaScript • CSS",
+        img: "/assets/new-img/voltvera_case.webp",
+        logo: "/assets/new-img/case_study_logos/voltverashop.png",
+        slug: "voltvera",
+        meta_title: "Кейс стъди на Волтвера | Warrgyiz Morsch",
+        meta_description:
+            "Научете как Warrgyiz Morsch помогна на Волтвера да подобри дигиталната си видимост чрез модерен UI/UX редизайн и мащабируемо уеб решение.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -375,7 +375,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Voltvera е иновативна марка за технологии и лайфстайл, фокусирана върху предоставянето на устойчиви и енергийно ефективни решения за модерните потребители. Продуктовата гама на компанията включва <strong>електрически скутери</strong>, <strong>LED телевизори</strong> и <strong>алкални пречистватели за вода</strong> — всички проектирани с мисъл за иновация, производителност и екологичност. Като адресира нарастващото търсене на чиста енергия, Voltvera съчетава <strong>екологична мобилност</strong> и <strong>здравословни решения за дома</strong> под една единна визия: да даде възможност на клиентите да живеят по-интелигентно и отговорно.</p>
+                        <p>Волтвера е иновативна марка за технологии и лайфстайл, фокусирана върху предоставянето на устойчиви и енергийно ефективни решения за модерните потребители. Продуктовата гама на компанията включва <strong>електрически скутери</strong>, <strong>LED телевизори</strong> и <strong>алкални пречистватели за вода</strong> — всички проектирани с мисъл за иновация, производителност и екологичност. Като адресира нарастващото търсене на чиста енергия, Voltvera съчетава <strong>екологична мобилност</strong> и <strong>здравословни решения за дома</strong> под една единна визия: да даде възможност на клиентите да живеят по-интелигентно и отговорно.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -448,19 +448,19 @@ export const CASE_STUDIES = [
                             <li>Обновеното дигитално присъствие изгради силна идентичност, която утвърди Voltvera като прогресивна марка, съчетаваща иновации и устойчивост.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Virazo Furniture",
-    desc: "Разработка на платформа за електронна търговия с WooCommerce и WordPress",
-    work: "WordPress • JavaScript • CSS",
-    img: "/assets/new-img/virazo_case.png",
-    logo: "/assets/new-img/case_study_logos/virazo_logo.webp",
-    slug: "virazo-furniture",
-    meta_title: "Кейс стади на Virazo Furniture | Warrgyiz Morsch",
-    meta_description:
-      "Разгледайте как Warrgyiz Morsch подобри изживяването в електронната търговия на Virazo Furniture чрез персонализирана уеб разработка и WooCommerce интеграция.",
-    content: `
+    {
+        title: "Виразо Фърничър",
+        desc: "Разработка на платформа за електронна търговия с WooCommerce и WordPress",
+        work: "WordPress • JavaScript • CSS",
+        img: "/assets/new-img/virazo_case.png",
+        logo: "/assets/new-img/case_study_logos/virazo_logo.webp",
+        slug: "virazo-furniture",
+        meta_title: "Кейс стади на Виразо Фърничър | Warrgyiz Morsch",
+        meta_description:
+            "Разгледайте как Warrgyiz Morsch подобри изживяването в електронната търговия на Виразо Фърничър чрез персонализирана уеб разработка и WooCommerce интеграция.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -472,7 +472,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Virazo Furniture е индийска марка за мебели, специализирана в модерни, издръжливи и стилни решения за дома и офиса. Те предлагат широка гама от продукти, включително дивани, легла, трапезни комплекти и декор, съчетавайки майсторска изработка със съвременен дизайн. Визията на марката е фокусирана върху създаването на гладко и приятно онлайн пазаруване за клиенти, търсещи едновременно комфорт и елегантност.</p>
+                        <p>Виразо Фърничър е индийска марка за мебели, специализирана в модерни, издръжливи и стилни решения за дома и офиса. Те предлагат широка гама от продукти, включително дивани, легла, трапезни комплекти и декор, съчетавайки майсторска изработка със съвременен дизайн. Визията на марката е фокусирана върху създаването на гладко и приятно онлайн пазаруване за клиенти, търсещи едновременно комфорт и елегантност.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -542,19 +542,19 @@ export const CASE_STUDIES = [
                             <li>Клиентът постигна плавен процес на онлайн продажби с лесни и бързи бекенд операции.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Flower Bear",
-    desc: "Цялостно изграждане на платформата в WordPress",
-    work: "WordPress • JavaScript • CSS",
-    img: "/assets/new-img/flower_bear_case.webp",
-    logo: "/assets/new-img/case_study_logos/flower_bear_logo.webp",
-    slug: "flower-bear",
-    meta_title: "Flower Bear Казус | Warrgyiz Morsch",
-    meta_description:
-      "Разберете как Warrgyiz Morsch помогна на Flower Bear да създаде безпроблемно онлайн изживяване за своите клиенти чрез нов WordPress сайт.",
-    content: `
+    {
+        title: "Флауър Беър",
+        desc: "Цялостно изграждане на платформата в WordPress",
+        work: "WordPress • JavaScript • CSS",
+        img: "/assets/new-img/flower_bear_case.webp",
+        logo: "/assets/new-img/case_study_logos/flower_bear_logo.webp",
+        slug: "flower-bear",
+        meta_title: "Флауър Беър Казус | Warrgyiz Morsch",
+        meta_description:
+            "Разберете как Warrgyiz Morsch помогна на Флауър Беър да създаде безпроблемно онлайн изживяване за своите клиенти чрез нов WordPress сайт.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -566,7 +566,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Flower Bear е базирана в Обединеното кралство марка за подаръци, специализирана в ръчно изработени мечета от премиум изкуствени цветя. Те предлагат уникални флорални аранжировки, предназначени за поводи като годишнини, рождени дни и романтични празници. Марката се фокусира върху съчетаването на креативност и майсторство, за да достави дълготрайни, естетични подаръци, които се отличават от традиционните букети.</p>
+                        <p>Флауър Беър е базирана в Обединеното кралство марка за подаръци, специализирана в ръчно изработени мечета от премиум изкуствени цветя. Те предлагат уникални флорални аранжировки, предназначени за поводи като годишнини, рождени дни и романтични празници. Марката се фокусира върху съчетаването на креативност и майсторство, за да достави дълготрайни, естетични подаръци, които се отличават от традиционните букети.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -630,19 +630,19 @@ export const CASE_STUDIES = [
                             <li>Новият уебсайт създаде <strong>стабилна дигитална основа</strong> за бъдещия маркетинг и разширяването на електронната търговия на Flower Bear.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Plate Master",
-    desc: "Разработка на интерактивна функционалност за дизайн на регистрационни табели с Next.js",
-    work: "NextJS",
-    img: "/assets/new-img/numberPlate_case.webp",
-    logo: "/assets/new-img/case_study_logos/number_plate.webp",
-    slug: "plate-master",
-    meta_title: "Plate Master Казус | Warrgyiz Morsch",
-    meta_description:
-      "Вижте как Warrgyiz Morsch помогна на Plate Master да подобри потребителското изживяване с персонализиран конфигуратор за регистрационни табели, изграден на Next.js.",
-    content: `
+    {
+        title: "Плейт Мастър",
+        desc: "Разработка на интерактивна функционалност за дизайн на регистрационни табели с Next.js",
+        work: "NextJS",
+        img: "/assets/new-img/numberPlate_case.webp",
+        logo: "/assets/new-img/case_study_logos/number_plate.webp",
+        slug: "plate-master",
+        meta_title: "Плейт Мастър Казус | Warrgyiz Morsch",
+        meta_description:
+            "Вижте как Warrgyiz Morsch помогна на Плейт Мастър да подобри потребителското изживяване с персонализиран конфигуратор за регистрационни табели, изграден на Next.js.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -654,7 +654,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Plate Master е бранд, базиран в Обединеното кралство, специализиран в персонализирани регистрационни табели. Бизнесът предлага на потребителите възможността да проектират и персонализират свои собствени табели чрез онлайн интерфейс, съчетавайки удобство с индивидуален дизайн на автомобилни аксесоари.</p>
+                        <p>Плейт Мастър е бранд, базиран в Обединеното кралство, специализиран в персонализирани регистрационни табели. Бизнесът предлага на потребителите възможността да проектират и персонализират свои собствени табели чрез онлайн интерфейс, съчетавайки удобство с индивидуален дизайн на автомобилни аксесоари.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -718,21 +718,21 @@ export const CASE_STUDIES = [
                             <li>Платформата вече е мащабируема, което позволява на Plate Master да добавя нови функции (нови материали, дизайни) без нужда от цялостно пренаписване на кода.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Assignnment In Need",
-    desc: "Изграждане на мащабна платформа с Laravel, персонализирана CRM система и SEO оптимизация",
-    work: "Laravel • JavaScript • CSS",
-    img: "/assets/new-img/assignment_case.webp",
-    logo: "/assets/new-img/case_study_logos/assignment_logo.png",
-    slug: "assignment",
-    meta_title: "Кейс стади на Assignment In Need | Warrgyiz Morsch",
-    meta_description:
-      "Научете как Warrgyiz Morsch трансформира Assignment In Need чрез модерна Laravel разработка, вградена CRM система и успешна SEO стратегия.",
-    content: `
+    {
+        title: "Асайнмент Ин Нийд",
+        desc: "Изграждане на мащабна платформа с Laravel, персонализирана CRM система и SEO оптимизация",
+        work: "Laravel • JavaScript • CSS",
+        img: "/assets/new-img/assignment_case.webp",
+        logo: "/assets/new-img/case_study_logos/assignment_logo.png",
+        slug: "assignment",
+        meta_title: "Кейс стади на Асайнмент Ин Нийд | Warrgyiz Morsch",
+        meta_description:
+            "Научете как Warrgyiz Morsch трансформира Асайнмент Ин Нийд чрез модерна Laravel разработка, вградена CRM система и успешна SEO стратегия.",
+        content: `
         <div class="about-head">
-          <h2>За Assignnment In Need</h2>
+          <h2>За Асайнмент Ин Нийд</h2>
           <a
             href="https://www.assignnmentinneed.com/"
             target="_blank"
@@ -742,7 +742,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Assignment in Need е водеща онлайн платформа за академични услуги, специализирана в цялостна подкрепа за студенти в Обединеното кралство. Техните услуги обхващат есета, курсови работи, дисертации и други университетски задачи в широк спектър от дисциплини. С фокус върху качеството и британските академични стандарти, марката помага на студентите да подобрят оценките си и да спазват кратки срокове. Партнирахме си с тях, за да извършим пълна дигитална трансформация на уебсайта и да внедрим стратегия за SEO, базирана на данни, с цел повишаване на видимостта и генерирането на потенциални клиенти.</p>
+                        <p>Асайнмент Ин Нийд е водеща онлайн платформа за академични услуги, специализирана в цялостна подкрепа за студенти в Обединеното кралство. Техните услуги обхващат есета, курсови работи, дисертации и други университетски задачи в широк спектър от дисциплини. С фокус върху качеството и британските академични стандарти, марката помага на студентите да подобрят оценките си и да спазват кратки срокове. Партнирахме си с тях, за да извършим пълна дигитална трансформация на уебсайта и да внедрим стратегия за SEO, базирана на данни, с цел повишаване на видимостта и генерирането на потенциални клиенти.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -812,19 +812,19 @@ export const CASE_STUDIES = [
                             <li>Марката се превърна от слабо забележим играч в силен конкурент в сферата на академичните услуги в Обединеното кралство.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Iron Streets",
-    desc: "Изграждане на WordPress сайт с персонализиран дизайн, JavaScript и CSS",
-    work: "WordPress • JavaScript • CSS",
-    img: "/assets/new-img/Iron.jpg",
-    logo: "/assets/new-img/case_study_logos/Ironstreets.png",
-    slug: "ironstreets",
-    meta_title: "Кейс стади на Iron Streets – Уеб дизайн, SEO и дигитална стратегия",
-    meta_description:
-      "Разберете как Iron Streets подобри онлайн присъствието си чрез модерен уеб дизайн, UI/UX редизайн, SEO оптимизация и по-висок органичен трафик.",
-    content: `
+    {
+        title: "Айрън Стрийтс",
+        desc: "Изграждане на WordPress сайт с персонализиран дизайн, JavaScript и CSS",
+        work: "WordPress • JavaScript • CSS",
+        img: "/assets/new-img/Iron.jpg",
+        logo: "/assets/new-img/case_study_logos/Ironstreets.png",
+        slug: "ironstreets",
+        meta_title: "Кейс стади на Айрън Стрийтс – Уеб дизайн, SEO и дигитална стратегия",
+        meta_description:
+            "Разберете как Айрън Стрийтс подобри онлайн присъствието си чрез модерен уеб дизайн, UI/UX редизайн, SEO оптимизация и по-висок органичен трафик.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -836,7 +836,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Iron Streets е модерна марка за мебели, специализирана в ръчно изработени изделия от желязо и метал, проектирани за издръжливост и съвременен интериор. Брандът се фокусира върху доставянето на висококачествени мебели, които съчетават индустриална здравина с модерна естетика. Продуктовата им гама включва метални мебели по поръчка, елементи за домашен декор и функционални решения, предназначени да подобрят съвременните жилищни пространства.</p>
+                        <p>Айрън Стрийтс е модерна марка за мебели, специализирана в ръчно изработени изделия от желязо и метал, проектирани за издръжливост и съвременен интериор. Брандът се фокусира върху доставянето на висококачествени мебели, които съчетават индустриална здравина с модерна естетика. Продуктовата им гама включва метални мебели по поръчка, елементи за домашен декор и функционални решения, предназначени да подобрят съвременните жилищни пространства.</p>
                         
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -923,19 +923,19 @@ export const CASE_STUDIES = [
                             <li>Цялостната трансформация доведе до увеличаване на запитванията и интереса към колекциите на Iron Streets.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Fantas Beauty Store",
-    desc: "Разработка на персонализирана eCommerce платформа за мода и красота",
-    work: "Laravel • PHP",
-    img: "/assets/new-img/Fantas-Beauty.jpg",
-    logo: "/assets/new-img/case_study_logos/Fantas.png",
-    slug: "fantas-beauty",
-    meta_title: "Кейс стади на Fantas Beauty Store | Laravel разработка и SEO",
-    meta_description:
-      "Разберете как Fantas Beauty Store подобри потребителското изживяване, SEO и производителността чрез Laravel разработка, по-бързо зареждане и по-добра структура.",
-    content: `
+    {
+        title: "Фантас Бюти Стор",
+        desc: "Разработка на персонализирана eCommerce платформа за мода и красота",
+        work: "Laravel • PHP",
+        img: "/assets/new-img/Fantas-Beauty.jpg",
+        logo: "/assets/new-img/case_study_logos/Fantas.png",
+        slug: "fantas-beauty",
+        meta_title: "Кейс стади на Фантас Бюти Стор | Laravel разработка и SEO",
+        meta_description:
+            "Разберете как Фантас Бюти Стор подобри потребителското изживяване, SEO и производителността чрез Laravel разработка, по-бързо зареждане и по-добра структура.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -947,7 +947,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Fantas Beauty Store е премиум платформа, създадена да представя висок клас услуги в сферата на красотата и личната грижа. Уебсайтът е модерно дигитално пространство, специализирано в татуировки, поставяне на мигли, дизайн на нокти и луксозни козметични процедури. Платформата отразява фокуса на марката върху творчеството, прецизността и удовлетвореността на клиентите, предлагайки гладко и визуално привлекателно дигитално изживяване.</p>
+                        <p>Фантас Бюти Стор е премиум платформа, създадена да представя висок клас услуги в сферата на красотата и личната грижа. Уебсайтът е модерно дигитално пространство, специализирано в татуировки, поставяне на мигли, дизайн на нокти и луксозни козметични процедури. Платформата отразява фокуса на марката върху творчеството, прецизността и удовлетвореността на клиентите, предлагайки гладко и визуално привлекателно дигитално изживяване.</p>
 
                         <p>Целта на Fantas е да създаде безпроблемна среда за онлайн пазаруване, където потребителите могат лесно да откриват модни продукти, да разглеждат колекции и да се наслаждават на качествено обслужване на всички устройства.</p>
                         
@@ -1037,19 +1037,19 @@ export const CASE_STUDIES = [
                             <li>Цялостен ръст в откриваемостта на продуктите и възможностите за реализиране на продажби.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Mewar Hi-Tech ERP (Система за управление на инвентара)",
-    desc: "Разработка на персонализирана ERP система за управление на складови наличности",
-    work: "Laravel • PHP • MySQL",
-    img: "/assets/new-img/mewar.jpg",
-    logo: "/assets/new-img/case_study_logos/Mewar.png",
-    slug: "mewar-hi-tech",
-    meta_title: "Кейс стади на Mewar Hi-Tech ERP | Laravel управление на инвентара",
-    meta_description:
-      "Научете как персонализирана Laravel ERP система помогна на Mewar Hi-Tech да дигитализира управлението на инвентара и да подобри оперативната ефективност.",
-    content: `
+    {
+        title: "Mewar Hi-Tech ERP (Система за управление на инвентара)",
+        desc: "Разработка на персонализирана ERP система за управление на складови наличности",
+        work: "Laravel • PHP • MySQL",
+        img: "/assets/new-img/mewar.jpg",
+        logo: "/assets/new-img/case_study_logos/Mewar.png",
+        slug: "mewar-hi-tech",
+        meta_title: "Кейс стади на Mewar Hi-Tech ERP | Laravel управление на инвентара",
+        meta_description:
+            "Научете как персонализирана Laravel ERP система помогна на Mewar Hi-Tech да дигитализира управлението на инвентара и да подобри оперативната ефективност.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -1141,20 +1141,20 @@ export const CASE_STUDIES = [
                             <li>Mewar Hi-Tech вече разполага с надеждна инфраструктура, готова да поддържа бъдещ растеж.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Oltao Luxury Fans",
-    desc: "Разработка на високопроизводителен eCommerce уебсайт за луксозни стоки",
-    work: "Next.js • Tailwind CSS • JavaScript",
-    img: "/assets/new-img/Oltao-case.jpg",
-    logo: "/assets/new-img/case_study_logos/Oltao.png",
-    slug: "oltao",
-    url: "https://oltao.in/",
-    meta_title: "Кейс стади на Oltao Luxury Fans | Next.js сайт и SEO растеж",
-    meta_description:
-      "Вижте как Oltao премина от Shopify към персонализиран Next.js уебсайт, подобрявайки скоростта, SEO и представянето на продуктите.",
-    content: `
+    {
+        title: "Oltao Luxury Fans",
+        desc: "Разработка на високопроизводителен eCommerce уебсайт за луксозни стоки",
+        work: "Next.js • Tailwind CSS • JavaScript",
+        img: "/assets/new-img/Oltao-case.jpg",
+        logo: "/assets/new-img/case_study_logos/Oltao.png",
+        slug: "oltao",
+        url: "https://oltao.in/",
+        meta_title: "Кейс стади на Oltao Luxury Fans | Next.js сайт и SEO растеж",
+        meta_description:
+            "Вижте как Oltao премина от Shopify към персонализиран Next.js уебсайт, подобрявайки скоростта, SEO и представянето на продуктите.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -1249,19 +1249,19 @@ export const CASE_STUDIES = [
                             <li>Засилено дигитално присъствие, помагащо на марката да достигне до по-широка аудитория от архитекти и интериорни дизайнери.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Bharat Ceramics",
-    desc: "Разработка на модерен уебсайт за продуктов каталог",
-    work: "Next.js • Tailwind CSS • JavaScript",
-    img: "/assets/new-img/bharat.jpg",
-    logo: "/assets/new-img/case_study_logos/Bharat.png",
-    slug: "bharat-ceramica",
-    meta_title: "Кейс стади на Bharat Ceramica | Дизайн на сайт за плочки и SEO",
-    meta_description:
-      "Разберете как Bharat Ceramica подобри представянето на колекциите си от плочки и видимостта си в търсачките чрез модерен UI/UX и SEO стратегия.",
-    content: `
+    {
+        title: "Бхарат Серамикс",
+        desc: "Разработка на модерен уебсайт за продуктов каталог",
+        work: "Next.js • Tailwind CSS • JavaScript",
+        img: "/assets/new-img/bharat.jpg",
+        logo: "/assets/new-img/case_study_logos/Bharat.png",
+        slug: "bharat-ceramica",
+        meta_title: "Кейс стади на Бхарат Серамикс | Дизайн на сайт за плочки и SEO",
+        meta_description:
+            "Разберете как Бхарат Серамикс подобри представянето на колекциите си от плочки и видимостта си в търсачките чрез модерен UI/UX и SEO стратегия.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -1273,7 +1273,7 @@ export const CASE_STUDIES = [
             Посетете уебсайта →
           </a>
         </div>
-                        <p>Bharat Ceramica е марка за керамични изделия, предлагаща широка гама от дизайнерски стенни и подови плочки, както и декоративни решения за повърхности в модерни интериори. Брандът се фокусира върху предоставянето на стилни, издръжливи и естетически привлекателни колекции, подходящи както за жилищни, така и за търговски пространства.</p>
+                        <p>Бхарат Серамикс е марка за керамични изделия, предлагаща широка гама от дизайнерски стенни и подови плочки, както и декоративни решения за повърхности в модерни интериори. Брандът се фокусира върху предоставянето на стилни, издръжливи и естетически привлекателни колекции, подходящи както за жилищни, така и за търговски пространства.</p>
 
                         <p>Тяхното портфолио включва множество финиши, текстури и дизайнерски модели, създадени да отговорят на еволюиращите нужди на архитекти, интериорни дизайнери и собственици на домове.</p>
                         
@@ -1357,19 +1357,19 @@ export const CASE_STUDIES = [
                             <li>Повече запитвания от клиенти и повишен интерес към колекциите на Bharat Ceramica.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Find Love & Peace",
-    desc: "Разработка на мащабируема уеб платформа за запознанства",
-    work: "Next.js • Tailwind CSS • JavaScript",
-    img: "/assets/new-img/Matrimony.jpg",
-    logo: "/assets/new-img/case_study_logos/Metronomi.png",
-    slug: "find-love-peace",
-    meta_title: "Кейс стади на Find Love & Peace | UI/UX, SEO и производителност",
-    meta_description:
-      "Вижте как дигиталната платформа Find Love & Peace подобри потребителското изживяване, SEO видимостта и производителността чрез оптимизирана архитектура.",
-    content: `
+    {
+        title: "Файнд Лав енд Пийс",
+        desc: "Разработка на мащабируема уеб платформа за запознанства",
+        work: "Next.js • Tailwind CSS • JavaScript",
+        img: "/assets/new-img/Matrimony.jpg",
+        logo: "/assets/new-img/case_study_logos/Metronomi.png",
+        slug: "find-love-peace",
+        meta_title: "Кейс стади на Файнд Лав енд Пийс | UI/UX, SEO и производителност",
+        meta_description:
+            "Вижте как дигиталната платформа Файнд Лав енд Пийс подобри потребителското изживяване, SEO видимостта и производителността чрез оптимизирана архитектура.",
+        content: `
         <div class="about-head">
           <h2>За клиента</h2>
           <a
@@ -1464,19 +1464,19 @@ export const CASE_STUDIES = [
                             <li><strong>66% ръст в привличането на органични потребители</strong>, разширявайки обхвата на платформата онлайн.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Democracy Asia",
-    desc: "Даваме глас на истината в демократична Азия",
-    work: "Laravel • PHP • MySQL",
-    img: "/assets/new-img/democracy.jpeg",
-    logo: "/assets/new-img/case_study_logos/Democracy Asia.png",
-    slug: "democracy-asia",
-    meta_title: "Кейс стади на Democracy Asia | SEO, ръст на трафика и абонати",
-    meta_description:
-      "Разберете как Democracy Asia постигна 10,000+ месечни посещения и 500+ нови абонати месечно чрез оптимизация на сайта, контент стратегия и CRM разработка.",
-    content: `
+    {
+        title: "Democracy Asia",
+        desc: "Даваме глас на истината в демократична Азия",
+        work: "Laravel • PHP • MySQL",
+        img: "/assets/new-img/democracy.jpeg",
+        logo: "/assets/new-img/case_study_logos/Democracy Asia.png",
+        slug: "democracy-asia",
+        meta_title: "Кейс стади на Democracy Asia | SEO, ръст на трафика и абонати",
+        meta_description:
+            "Разберете как Democracy Asia постигна 10,000+ месечни посещения и 500+ нови абонати месечно чрез оптимизация на сайта, контент стратегия и CRM разработка.",
+        content: `
         <div class="about-head">
           <h2>Общ преглед на проекта</h2>
           <a
@@ -1581,21 +1581,21 @@ export const CASE_STUDIES = [
                         <h2>Заключение</h2>
                         <p>Превърнахме Democracy Asia в мащабируема и ориентирана към растеж дигитална медийна платформа. Чрез комбиниране на уеб разработка, SEO, контент стратегия и CRM, платформата постигна устойчив растеж на аудиторията и стабилно привличане на абонати.</p>
     `,
-  },
+    },
 
-  {
-    title: "Yellow Sapphire",
-    desc: "Маркетинг в социалните мрежи и GMB оптимизация",
-    work: "Instagram • Facebook • Google Business Profile",
-    img: "/assets/new-img/case_yellow_sapphire.webp",
-    logo: "/assets/new-img/case_study_logos/yellow_spphire.webp",
-    slug: "yellow-sapphire",
-    meta_title: "Кейс стади на Yellow Sapphire | Warrgyizmorsch",
-    meta_description:
-      "Разберете как Warrgyizmorsch помогна на Yellow Sapphire да подобри онлайн обхвата си чрез прецизна дигитална стратегия и оптимизация на локалното присъствие.",
-    content: `
+    {
+        title: "Йелоу Сапфайър",
+        desc: "Маркетинг в социалните мрежи и GMB оптимизация",
+        work: "Instagram • Facebook • Google Business Profile",
+        img: "/assets/new-img/case_yellow_sapphire.webp",
+        logo: "/assets/new-img/case_study_logos/yellow_spphire.webp",
+        slug: "yellow-sapphire",
+        meta_title: "Кейс стади на Йелоу Сапфайър | Warrgyizmorsch",
+        meta_description:
+            "Разберете как Warrgyizmorsch помогна на Йелоу Сапфайър да подобри онлайн обхвата си чрез прецизна дигитална стратегия и оптимизация на локалното присъствие.",
+        content: `
                         <h2>За клиента</h2>
-                        <p>Yellow Sapphire Visa & Education Consultants е консултантска агенция, базирана в Лудхиана, специализирана в услуги за обучение в чужбина и имиграция. Те предоставят цялостна подкрепа, включително обработка на визи, консултации, подготовка за езикови тестове (IELTS/PTE) и насоки за прием в чуждестранни учебни заведения.</p>
+                        <p>Йелоу Сапфайър Visa & Education Consultants е консултантска агенция, базирана в Лудхиана, специализирана в услуги за обучение в чужбина и имиграция. Те предоставят цялостна подкрепа, включително обработка на визи, консултации, подготовка за езикови тестове (IELTS/PTE) и насоки за прием в чуждестранни учебни заведения.</p>
 
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -1663,21 +1663,21 @@ export const CASE_STUDIES = [
                             <li>Общо 50% подобрение в конверсиите, установявайки стабилна основа за дългосрочен дигитален маркетинг.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "United Tree",
-    desc: "Маркетинг в социалните мрежи и GMB оптимизация",
-    work: "Instagram • Facebook • Google Business Profile",
-    img: "/assets/new-img/united_tree.webp",
-    logo: "/assets/new-img/case_study_logos/united_tree_logo.webp",
-    slug: "united-tree",
-    meta_title: "Кейс стади на United Tree | Warrgyizmorsch",
-    meta_description:
-      "Вижте как Warrgyizmorsch помогна на United Tree да засили своята дигитална идентичност и онлайн ангажираност.",
-    content: `
+    {
+        title: "Юнайтед Трий",
+        desc: "Маркетинг в социалните мрежи и GMB оптимизация",
+        work: "Instagram • Facebook • Google Business Profile",
+        img: "/assets/new-img/united_tree.webp",
+        logo: "/assets/new-img/case_study_logos/united_tree_logo.webp",
+        slug: "united-tree",
+        meta_title: "Кейс стади на Юнайтед Трий | Warrgyizmorsch",
+        meta_description:
+            "Вижте как Warrgyizmorsch помогна на Юнайтед Трий да засили своята дигитална идентичност и онлайн ангажираност.",
+        content: `
                         <h2>За клиента</h2>
-                        <p>United Tree Lifestyle е марка за мъжка мода, базирана в Джодпур, Раджастан. Брандът предлага стилни и удобни ежедневни облекла за млада и следяща тенденциите аудитория. Тяхното мото „Apna style – Apni vibe“ подчертава фокуса върху модерната естетика и индивидуалния стил. Целта на United Tree беше да засилят присъствието си в социалните мрежи и локалното търсене, за да увеличат трафика към физическия си магазин и онлайн ангажираността.</p>
+                        <p>Юнайтед Трий Lifestyle е марка за мъжка мода, базирана в Джодпур, Раджастан. Брандът предлага стилни и удобни ежедневни облекла за млада и следяща тенденциите аудитория. Тяхното мото „Apna style – Apni vibe“ подчертава фокуса върху модерната естетика и индивидуалния стил. Целта на United Tree беше да засилят присъствието си в социалните мрежи и локалното търсене, за да увеличат трафика към физическия си магазин и онлайн ангажираността.</p>
 
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -1745,24 +1745,24 @@ export const CASE_STUDIES = [
                             <li>Общо <strong>50% повече запитвания и реален поток от клиенти</strong> във физическия магазин.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Cod Sphere",
-    desc: "UI дизайн и SMM",
-    work: "Instagram • Facebook",
-    logo: "/assets/new-img/case_study_logos/code_spare_logo.webp",
-    img: "/assets/new-img/cod_sphere.webp",
-    slug: "cod-sphere",
-    meta_title: "Кейс стади на Cod Sphere | Warrgyizmorsch",
-    meta_description:
-      "Вижте как Warrgyizmorsch помогна на Cod Sphere да представи услугите си ефективно чрез високопроизводителен уебсайт и силно присъствие в социалните мрежи.",
-    content: `
+    {
+        title: "Код Сфиър",
+        desc: "UI дизайн и SMM",
+        work: "Instagram • Facebook",
+        logo: "/assets/new-img/case_study_logos/code_spare_logo.webp",
+        img: "/assets/new-img/cod_sphere.webp",
+        slug: "cod-sphere",
+        meta_title: "Кейс стади на Код Сфиър | Warrgyizmorsch",
+        meta_description:
+            "Вижте как Warrgyizmorsch помогна на Код Сфиър да представи услугите си ефективно чрез високопроизводителен уебсайт и силно присъствие в социалните мрежи.",
+        content: `
                         <h2>За клиента</h2>
-                        <p>Cod Sphere е доставчик на технологични решения, специализиран в изработката на софтуер по поръчка, уеб и мобилни приложения. Брандът се фокусира върху съчетаването на иновации с функционалност, доставяйки високопроизводителни дигитални продукти за модерния бизнес. Тяхната визия е съсредоточена върху създаването на безпроблемно потребителско изживяване, което свързва технологията с отличния дизайн.</p>
+                        <p>Код Сфиър е доставчик на технологични решения, специализиран в изработката на софтуер по поръчка, уеб и мобилни приложения. Брандът се фокусира върху съчетаването на иновации с функционалност, доставяйки високопроизводителни дигитални продукти за модерния бизнес. Тяхната визия е съсредоточена върху създаването на безпроблемно потребителско изживяване, което свързва технологията с отличния дизайн.</p>
 
                         <h2>Нашите предизвикателства</h2>
-                        <p>Cod Sphere се свърза с нас с двойна цел – да засили визуалната си идентичност чрез интуитивен UI дизайн и да установи силен, последователен глас на бранда в социалните медии.</p>
+                        <p>Код Сфиър се свърза с нас с двойна цел – да засили визуалната си идентичност чрез интуитивен UI дизайн и да установи силен, последователен глас на бранда в социалните медии.</p>
                         <ul>
                             <li>
                                 Съществуващият интерфейс страдаше от липса на структура, единство в дизайна и кохерентност на бранда.
@@ -1829,19 +1829,19 @@ export const CASE_STUDIES = [
                             <li>Cod Sphere вече е <strong>еталон за брандинг, воден от дизайна</strong> – модерна, мащабируема и ориентирана към резултатите дигитална идентичност.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "No Shifts",
-    desc: "Брандинг, дизайн на лого и SMM",
-    work: "Instagram • Facebook",
-    img: "/assets/new-img/no_shift_bg.webp",
-    logo: "/assets/new-img/case_study_logos/no_shift.webp",
-    slug: "no-shift",
-    meta_title: "Кейс стади на No Shift | Warrgyizmorsch",
-    meta_description:
-      "Разберете как Warrgyizmorsch подкрепи No Shift чрез потребителски ориентирана дигитална платформа за засилване на присъствието на бранда.",
-    content: `
+    {
+        title: "No Shifts",
+        desc: "Брандинг, дизайн на лого и SMM",
+        work: "Instagram • Facebook",
+        img: "/assets/new-img/no_shift_bg.webp",
+        logo: "/assets/new-img/case_study_logos/no_shift.webp",
+        slug: "no-shift",
+        meta_title: "Кейс стади на No Shift | Warrgyizmorsch",
+        meta_description:
+            "Разберете как Warrgyizmorsch подкрепи No Shift чрез потребителски ориентирана дигитална платформа за засилване на присъствието на бранда.",
+        content: `
                         <h2>За клиента</h2>
                         <p>No Shift е съвременна лайфстайл и развлекателна марка, вкоренена в младежката култура, индивидуалността и креативността. Базиран в Индия, брандът представлява ново поколение мислители и творци, които изразяват себе си чрез музика, мода и общност. С мотото „Your vibe, your shift“, No Shift е замислен като движение – не просто име – където всеки елемент от дизайна и посланието резонира с автентичност и енергия.</p>
 
@@ -1911,21 +1911,21 @@ export const CASE_STUDIES = [
                             <li>Брандът вече се радва на разпознаваема дигитална идентичност, съчетаваща естетика, отношение и автентичност.</li>
                         </ul>
     `,
-  },
+    },
 
-  {
-    title: "Nretia",
-    desc: "UI дизайн",
-    work: "UI/UX",
-    img: "/assets/new-img/naretia_case.webp",
-    logo: "/assets/new-img/case_study_logos/nratie_logo.webp",
-    slug: "nretia-health",
-    meta_title: "Кейс стади на Nretia Health | Warrgyizmorsch",
-    meta_description:
-      "Разберете как Warrgyizmorsch подкрепи Nretia Health чрез създаването на интуитивен и професионален потребителски интерфейс за здравна платформа.",
-    content: `
+    {
+        title: "Нретия",
+        desc: "UI дизайн",
+        work: "UI/UX",
+        img: "/assets/new-img/naretia_case.webp",
+        logo: "/assets/new-img/case_study_logos/nratie_logo.webp",
+        slug: "nretia-health",
+        meta_title: "Кейс стади на Нретия Health | Warrgyizmorsch",
+        meta_description:
+            "Разберете как Warrgyizmorsch подкрепи Нретия Health чрез създаването на интуитивен и професионален потребителски интерфейс за здравна платформа.",
+        content: `
                         <h2>За клиента</h2>
-                        <p>NRETIA Health е доставчик на решения в здравната екосистема, фокусиран върху подпомагането на организациите в тяхната дигитална трансформация, стратегия и UI/UX дизайн. Те оперират в силно регулирана среда, където яснотата, ползваемостта и визуалното доверие са от фундаментално значение.</p>
+                        <p>Нретия Health е доставчик на решения в здравната екосистема, фокусиран върху подпомагането на организациите в тяхната дигитална трансформация, стратегия и UI/UX дизайн. Те оперират в силно регулирана среда, където яснотата, ползваемостта и визуалното доверие са от фундаментално значение.</p>
 
                         <h2>Нашите предизвикателства</h2>
                         <ul>
@@ -1986,5 +1986,5 @@ export const CASE_STUDIES = [
                             <li>Позициониране на платформата с полирана визуална идентичност, която изгражда доверие и съответства на високите стандарти в здравеопазването.</li>
                         </ul>
     `,
-  },
+    },
 ];

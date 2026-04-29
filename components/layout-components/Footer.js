@@ -146,8 +146,8 @@ const Footer = () => {
                           className="contact-feature_link"
                           style={{ overflowWrap: "anywhere" }}
                         >
-                          Warrgyizmorsch private limited, 410, 4th floor, Ashoka
-                          palace, Shobhagpura, Udaipur, Rajasthan
+                          Warrgyizmorsch Private Limited, 410, 4-ти етаж,
+                          Ашока Палас, Шобхагпура, Udaipur, Rajasthan, Индия
                         </a>
                       </div>
                     </div>
@@ -161,8 +161,8 @@ const Footer = () => {
                           className="contact-feature_link"
                           style={{ overflowWrap: "anywhere" }}
                         >
-                          312, Pentax House, South Hill Avenue, South Harrow,
-                          Middlesex, HA2 0DU, United Kingdom
+                          312, Пентакс Хаус, Саут Хил Авеню, Саут Хароу,
+                          Мидълсекс, HA2 0DU, United Kingdom
                         </a>
                       </div>
                     </div>
