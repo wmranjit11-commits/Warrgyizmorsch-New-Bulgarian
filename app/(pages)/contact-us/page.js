@@ -11,7 +11,7 @@ export const metadata = generateSEOMeta({
 
 const Contact = () => {
   return (
-    
+
     <>
       <NewContact />
 
@@ -132,7 +132,7 @@ const Contact = () => {
                         <b>Нашият клон в Индия :</b>
                       </div>
                       <div className="text-center">
-                        410, 4th floor, Ashoka palace, Shobhagpura, Udaipur,
+                        410, 4-ти етаж, Ашока Палас, Шобхагпура, Udaipur,
                         Rajasthan
                       </div>
                     </div>
@@ -151,8 +151,8 @@ const Contact = () => {
                         <b>Нашият клон в Обединеното кралство :</b>
                       </div>
                       <div className="text-center">
-                        312, Pentax House, South Hill Avenue, South Harrow,
-                        Middlesex, HA2 0DU, United Kingdom
+                        312, Пентакс Хаус, Саут Хил Авеню, Саут Хароу,
+                        Мидълсекс, HA2 0DU, United Kingdom
                       </div>
                     </div>
                   </div>
