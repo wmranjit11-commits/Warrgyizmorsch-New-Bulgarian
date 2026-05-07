@@ -35,66 +35,6 @@
   }
 }
 
-/* Language Dropdown  */
-.VIpgJd-ZVi9od-ORHb-OEVmcd,
-#goog-gt-tt,
-#goog-gt-vt {
-  display: none !important;
-}
-
-.goog-te-gadget-simple {
-  border-radius: 20px;
-  padding: 4px !important;
-  background: #fff;
-}
-
-.goog-te-gadget img {
-  display: none;
-}
-
-#google_translate_wrapper {
-  position: fixed;
-  top: 30%;
-  right: 0;
-  z-index: 9999;
-  background: #f2f2f2;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  padding: 4px;
-  font-family: sans-serif;
-  overflow: visible;
-}
-
-.translate-icon {
-  font-size: 20px;
-  cursor: pointer;
-}
-
-#translate-inner {
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: visible;
-}
-
-#google_translate_element {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  white-space: nowrap;
-  z-index: 10000;
-}
-
-#translateIcon {
-  display: inline-block;
-}
 
 body {
   top: 0 !important;

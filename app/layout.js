@@ -43,6 +43,7 @@ export default function RootLayout({ children }) {
           href="https://assets.calendly.com/assets/external/widget.css"
           rel="stylesheet"
         />
+        <meta name="google" content="notranslate" />
       </head>
 
       <body
@@ -78,95 +79,6 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
         />
 
-        {/* ---------- Google Translate inline logic ---------- */}
-        <Script
-          id="google-translate-inline"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              function showTranslate() {
-                const translateElement = document.getElementById('google_translate_element');
-                if (!translateElement) return;
-                translateElement.style.opacity = '1';
-                translateElement.style.pointerEvents = 'auto';
-              }
-
-              function hideTranslate() {
-                const translateElement = document.getElementById('google_translate_element');
-                if (!translateElement) return;
-                translateElement.style.opacity = '0';
-                translateElement.style.pointerEvents = 'none';
-              }
-
-              // Called by Google script
-              function googleTranslateElementInit() {
-                const userLang = navigator.language || navigator.userLanguage;
-                let pageLanguage = 'en';
-                const supportedLanguages = ['en', 'bg', 'de'];
-                const langCode = userLang.split('-')[0];
-
-                if (supportedLanguages.includes(langCode)) {
-                  pageLanguage = langCode;
-                }
-
-                new google.translate.TranslateElement({
-                  pageLanguage: 'en',
-                  includedLanguages: 'en,bg,de',
-                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                  autoDisplay: false
-                }, 'google_translate_element');
-
-                if (langCode !== 'en') {
-                  setTimeout(() => {
-                    const select = document.querySelector('.goog-te-combo');
-                    if (select) {
-                      select.value = langCode;
-                      select.dispatchEvent(new Event('change'));
-                    }
-                  }, 1000);
-                }
-              }
-
-              window.googleTranslateElementInit = googleTranslateElementInit;
-
-              (function setupTranslateToggle() {
-                function attachHandlers() {
-                  const icon = document.getElementById('translateIcon');
-                  const wrapper = document.getElementById('google_translate_wrapper');
-
-                  if (!icon || !wrapper) {
-                    // Try again shortly if elements not yet in DOM
-                    setTimeout(attachHandlers, 300);
-                    return;
-                  }
-
-                  icon.addEventListener('click', function (e) {
-                    e.stopPropagation();
-                    showTranslate();
-                  });
-
-                  document.addEventListener('click', function (e) {
-                    if (!wrapper.contains(e.target)) {
-                      hideTranslate();
-                    }
-                  });
-                }
-
-                if (document.readyState === 'loading') {
-                  document.addEventListener('DOMContentLoaded', attachHandlers);
-                } else {
-                  attachHandlers();
-                }
-              })();
-            `,
-          }}
-        />
-
-        {/* ---------- Google Translate script ---------- */}
-        <Script
-          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-          strategy="afterInteractive"
-        />
 
         {/* ---------- GTM noscript (body) ---------- */}
         <noscript>
@@ -178,15 +90,6 @@ export default function RootLayout({ children }) {
           />
         </noscript>
 
-        {/* ---------- Floating Language Strip HTML ---------- */}
-        <div id="google_translate_wrapper">
-          <div id="translate-inner">
-            <span className="translate-icon" id="translateIcon">
-              🌐
-            </span>
-            <div id="google_translate_element" />
-          </div>
-        </div>
 
         {/* ---------- Main Layout ---------- */}
         <BlogProvider>
